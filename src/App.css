@@ -1,7 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Press+Start+2P&display=swap');
+
 .App {
   text-align: center;
 }
+.title {
+  font-family: 'Press Start 2P', cursive;
+}
+p,
+h2,
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+.form {
+  padding-top: 30px;
+}
+input[type='text'] {
+  width: 30%;
+  padding: 12px 20px;
+  border-radius: 50px;
+}
 
+button {
+  width: 10%;
+  padding: 15px 9px;
+  border-radius: 50px;
+  margin-left: 10px;
+  background-color: red;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
+}
+button:hover {
+  background-color: white;
+  color: red;
+}
+
+.content {
+  padding-top: 50px;
+  width: 300px;
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 50px;
+  color: white;
+  padding-bottom: 50px;
+  background-color: rgb(173, 166, 166);
+}
+
+footer {
+  margin-top: 50px;
+  background-color: red;
+  padding: 20px;
+  border-radius: 20px 20px 0 0;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+}
+/* end */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
